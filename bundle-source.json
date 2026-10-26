@@ -4,6 +4,7 @@
   "bundleSchemaVersion": "1.0.0",
   "libraryId": "com.ukrgaz.creatio",
   "libraryVersion": "1.0.0",
+  "sequence": 1000000,
   "compatibility": {
     "clio": {
       "min": "8.1.0",
