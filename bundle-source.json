@@ -1,0 +1,62 @@
+{
+  "$schema": "./schemas/v1/knowledge-repository.schema.json",
+  "contractVersion": "1.0.0",
+  "bundleSchemaVersion": "1.0.0",
+  "libraryId": "com.ukrgaz.creatio",
+  "libraryVersion": "1.0.0",
+  "compatibility": {
+    "clio": { "min": "8.1.0", "max": "8.1.999" },
+    "mcpToolContract": { "min": "1.1.0", "max": "1.1.0" }
+  },
+  "requirements": {
+    "tools": ["get-guidance"],
+    "itemIds": [],
+    "resourceUris": []
+  },
+  "resources": [
+    {
+      "itemId": "ukrgaz-naming-rules",
+      "title": "UKRgaz: правила іменування",
+      "description": "Правила іменування схем, об'єктів, колонок, лукапів і префіксів у проєктах UKRgaz. Читати перед створенням або перейменуванням будь-якої схеми.",
+      "topicId": "ukrgaz.naming-rules",
+      "role": "guidance",
+      "uri": "docs://knowledge/com.ukrgaz.creatio/ukrgaz-naming-rules",
+      "sourcePath": "guidance/mcp/guides/ukrgaz-naming-rules.md",
+      "bundlePath": "resources/ukrgaz-naming-rules.md",
+      "mediaType": "text/markdown"
+    },
+    {
+      "itemId": "ukrgaz-delivery-workflow",
+      "title": "UKRgaz: порядок доставки змін",
+      "description": "Порядок збірки, пушу, компіляції й рестарту залежно від режиму FSM. Читати перед будь-яким деплоєм змін у Creatio.",
+      "topicId": "ukrgaz.delivery-workflow",
+      "role": "guidance",
+      "uri": "docs://knowledge/com.ukrgaz.creatio/ukrgaz-delivery-workflow",
+      "sourcePath": "guidance/mcp/guides/ukrgaz-delivery-workflow.md",
+      "bundlePath": "resources/ukrgaz-delivery-workflow.md",
+      "mediaType": "text/markdown"
+    },
+    {
+      "itemId": "ukrgaz-freedom-ui-data-access",
+      "title": "UKRgaz: доступ до даних у Freedom UI",
+      "description": "Як Angular-компоненти Freedom UI читають і пишуть дані через @creatio-devkit/common Model, без OData і прямих викликів DataService.",
+      "topicId": "ukrgaz.freedom-ui-data-access",
+      "role": "guidance",
+      "uri": "docs://knowledge/com.ukrgaz.creatio/ukrgaz-freedom-ui-data-access",
+      "sourcePath": "guidance/mcp/guides/ukrgaz-freedom-ui-data-access.md",
+      "bundlePath": "resources/ukrgaz-freedom-ui-data-access.md",
+      "mediaType": "text/markdown"
+    },
+    {
+      "itemId": "ukrgaz-entity-checklist",
+      "title": "UKRgaz: чекліст створення сутності",
+      "description": "Короткий чекліст перевірок під час створення нової сутності Creatio в проєктах UKRgaz.",
+      "topicId": "ukrgaz.entity-checklist",
+      "role": "reference",
+      "uri": "docs://knowledge/com.ukrgaz.creatio/ukrgaz-entity-checklist",
+      "sourcePath": "references/entity-checklist.md",
+      "bundlePath": "resources/ukrgaz-entity-checklist.md",
+      "mediaType": "text/markdown"
+    }
+  ]
+}
