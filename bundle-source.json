@@ -5,13 +5,31 @@
   "libraryId": "com.ukrgaz.creatio",
   "libraryVersion": "1.0.0",
   "compatibility": {
-    "clio": { "min": "8.1.0", "max": "8.1.999" },
-    "mcpToolContract": { "min": "1.1.0", "max": "1.1.0" }
+    "clio": {
+      "min": "8.1.0",
+      "max": "8.1.999"
+    },
+    "mcpToolContract": {
+      "min": "1.1.0",
+      "max": "1.1.0"
+    }
   },
   "requirements": {
-    "tools": ["get-guidance"],
-    "itemIds": [],
-    "resourceUris": []
+    "tools": [
+      "get-guidance"
+    ],
+    "itemIds": [
+      "ukrgaz-naming-rules",
+      "ukrgaz-delivery-workflow",
+      "ukrgaz-freedom-ui-data-access",
+      "ukrgaz-entity-checklist"
+    ],
+    "resourceUris": [
+      "docs://knowledge/com.ukrgaz.creatio/ukrgaz-naming-rules",
+      "docs://knowledge/com.ukrgaz.creatio/ukrgaz-delivery-workflow",
+      "docs://knowledge/com.ukrgaz.creatio/ukrgaz-freedom-ui-data-access",
+      "docs://knowledge/com.ukrgaz.creatio/ukrgaz-entity-checklist"
+    ]
   },
   "resources": [
     {
